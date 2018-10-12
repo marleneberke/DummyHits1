@@ -1,0 +1,24 @@
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Overview>
+  <Title>Please Click "Yes" Below</Title>
+  <Text>Sorry you had problems with the HIT. Please click "yes" below to be paid.</Text>
+  </Overview>
+  <Question>
+  <QuestionIdentifier>question1</QuestionIdentifier>
+  <IsRequired>true</IsRequired>
+  <QuestionContent>
+  <Text>Just click "Yes"</Text>
+  </QuestionContent>
+  <AnswerSpecification>
+  <SelectionAnswer>
+  <StyleSuggestion>radiobutton</StyleSuggestion>
+  <Selections>
+  <Selection>
+  <SelectionIdentifier>1</SelectionIdentifier>
+  <Text>Yes</Text>
+  </Selection>
+  </Selections>
+  </SelectionAnswer>
+  </AnswerSpecification>
+  </Question>
+  </QuestionForm>
